@@ -42,8 +42,11 @@ CheatGame is an exciting maze-based game where you control a mouse trying to esc
 - **R**: Restart level
 - **ESC**: Pause game
 
-## 🚀 Installation
+## 🚀 Execute
 
-1. Clone the repository
+1. Run
 ```bash
-git clone https://github.com/your-username/CheatGame.git
+python -m venv venv
+source venv/bin/activate
+
+python main.py
